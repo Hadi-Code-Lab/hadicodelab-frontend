@@ -1,8 +1,11 @@
+import Navbar from '@/components/Navbar/Navbar';
 import './globals.css';
-import { Roboto_Serif } from 'next/font/google';
+import { Roboto } from 'next/font/google';
 
-const roboto_Serif = Roboto_Serif({
+const roboto = Roboto({
   subsets: ['latin'],
+  weight: ['100', '300', '400', '500', '700', '900'],
+  fallback: ['arial'],
 });
 
 export const metadata = {
@@ -17,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={roboto_Serif.className}>{children}</body>
+      <body className={`${roboto.className} bg-neutralBg`}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
