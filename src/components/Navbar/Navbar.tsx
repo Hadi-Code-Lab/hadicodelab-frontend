@@ -11,6 +11,7 @@ import {
 import type { INavbarPagesList } from './Navbar.type';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Button from '../Button/Button';
 
 const navbarPagesList: INavbarPagesList[] = [
   {
@@ -72,9 +73,10 @@ const Navbar = () => {
         {/* End of Links */}
         {/* Profile or Login Button */}
         <div>
-          <button className='w-[100px] rounded-full bg-primary py-2 text-onPrimary'>
+          {/* <button className='w-[100px] rounded-full bg-primary py-2 text-onPrimary'>
             Login
-          </button>
+          </button> */}
+          <Button text='login' variant='filled' />
         </div>
         {/* End of Profile or Login Button */}
       </div>
