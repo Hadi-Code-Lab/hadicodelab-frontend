@@ -37,6 +37,8 @@ module.exports = {
         // background
         background: '#FEFBFF',
         onBackground: '#1B1B1F',
+        neutralBg: '#F2F0F4',
+        neutral_40: '#5E5E62',
       },
     },
   },
