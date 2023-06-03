@@ -1,10 +1,16 @@
 import { ButtonProps } from './Button.type';
+import styles from './Button.module.css';
 
-const Button: React.FC<ButtonProps> = ({ onClick, text, icon, variant }) => {
+const Button: React.FC<ButtonProps> = ({
+  onClick,
+  children,
+  icon,
+  variant,
+}) => {
   const addVariantStyles = (activeVariant: ButtonProps['variant']) => {
     switch (activeVariant) {
       case 'filled':
-        return 'bg-primary text-white hover:shadow-md hover:bg-primaryLight active:bg-primaryLight active:ring-1 active:ring-primary';
+        return 'bg-primary text-white';
       case 'elevated':
         return;
       case 'outlined':
@@ -20,11 +26,11 @@ const Button: React.FC<ButtonProps> = ({ onClick, text, icon, variant }) => {
     <button
       className={`flex items-center justify-center rounded-full px-4 py-2 font-medium ${addVariantStyles(
         variant
-      )}`}
+      )} ${styles.button}`}
       onClick={onClick}
     >
       {icon && <span className='mr-2'>{icon}</span>}
-      {text}
+      {children}
     </button>
   );
 };
