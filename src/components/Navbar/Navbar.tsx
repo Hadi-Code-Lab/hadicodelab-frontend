@@ -7,6 +7,7 @@ import {
   IdentificationIcon,
   DocumentTextIcon,
   ChatBubbleLeftRightIcon,
+  ArrowRightOnRectangleIcon,
 } from '@heroicons/react/24/solid';
 import type { INavbarPagesList } from './Navbar.type';
 import Link from 'next/link';
@@ -76,7 +77,12 @@ const Navbar = () => {
           {/* <button className='w-[100px] rounded-full bg-primary py-2 text-onPrimary'>
             Login
           </button> */}
-          <Button text='login' variant='filled' />
+          <Button
+            variant='filled'
+            icon={<ArrowRightOnRectangleIcon className='h-5 w-5' />}
+          >
+            Login
+          </Button>
         </div>
         {/* End of Profile or Login Button */}
       </div>
