@@ -7,10 +7,12 @@ import {
   IdentificationIcon,
   DocumentTextIcon,
   ChatBubbleLeftRightIcon,
+  ArrowRightOnRectangleIcon,
 } from '@heroicons/react/24/solid';
 import type { INavbarPagesList } from './Navbar.type';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Button from '../Button/Button';
 
 const navbarPagesList: INavbarPagesList[] = [
   {
@@ -72,9 +74,15 @@ const Navbar = () => {
         {/* End of Links */}
         {/* Profile or Login Button */}
         <div>
-          <button className='w-[100px] rounded-full bg-primary py-2 text-onPrimary'>
+          {/* <button className='w-[100px] rounded-full bg-primary py-2 text-onPrimary'>
             Login
-          </button>
+          </button> */}
+          <Button
+            variant='filled'
+            icon={<ArrowRightOnRectangleIcon className='h-5 w-5' />}
+          >
+            Login
+          </Button>
         </div>
         {/* End of Profile or Login Button */}
       </div>

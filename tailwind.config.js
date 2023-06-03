@@ -16,6 +16,7 @@ module.exports = {
       colors: {
         // Primary
         primary: '#2151DA',
+        primaryLight: '#436CF5',
         onPrimary: '#FFFFFF',
         primaryContainer: '#DCE1FF',
         onPrimaryContainer: '#001551',
