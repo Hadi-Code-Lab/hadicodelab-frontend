@@ -20,6 +20,8 @@ module.exports = {
         onPrimary: '#FFFFFF',
         primaryContainer: '#DCE1FF',
         onPrimaryContainer: '#001551',
+        primary_90: '#DCE1FF',
+        primary_95: '#EFEFFF',
         // Secondary
         secondary: '#5A5D72',
         onSecondary: '#FFFFFF',

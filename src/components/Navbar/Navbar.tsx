@@ -78,7 +78,7 @@ const Navbar = () => {
             Login
           </button> */}
           <Button
-            variant='elevated'
+            variant='outlined'
             icon={<ArrowRightOnRectangleIcon className='h-5 w-5' />}
           >
             Login
