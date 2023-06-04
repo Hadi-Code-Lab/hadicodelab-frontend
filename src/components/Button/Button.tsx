@@ -16,7 +16,7 @@ const Button: React.FC<ButtonProps> = ({
       case 'outlined':
         return 'border-solid border-[1px] border-primary text-primary hover:bg-primary_95 hover:text-primary active:shadow-inner';
       case 'text':
-        return;
+        return 'text-primary hover:bg-primary_95 active:bg-primary_95';
       default:
         return;
     }
