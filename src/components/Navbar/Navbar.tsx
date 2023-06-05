@@ -1,18 +1,20 @@
 'use client';
 
-import Image from 'next/image';
-import HadiCodeLabIcon from '@/public/codelabIcon.png';
 import {
+  ArrowRightOnRectangleIcon,
+  ChatBubbleLeftRightIcon,
+  DocumentTextIcon,
   HomeIcon,
   IdentificationIcon,
-  DocumentTextIcon,
-  ChatBubbleLeftRightIcon,
-  ArrowRightOnRectangleIcon,
 } from '@heroicons/react/24/solid';
-import type { INavbarPagesList } from './Navbar.type';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+
+import HadiCodeLabIcon from '@/public/codelabIcon.png';
+
 import Button from '../Button/Button';
+import type { INavbarPagesList } from './Navbar.type';
 
 const navbarPagesList: INavbarPagesList[] = [
   {

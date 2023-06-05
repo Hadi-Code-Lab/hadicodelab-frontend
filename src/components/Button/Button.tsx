@@ -1,5 +1,5 @@
-import { ButtonProps } from './Button.type';
 import styles from './Button.module.css';
+import { ButtonProps } from './Button.type';
 
 const Button: React.FC<ButtonProps> = ({
   onClick,
@@ -27,7 +27,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       className={`flex items-center justify-center rounded-full px-4 py-2 font-medium ${addVariantStyles(
-        variant
+        variant,
       )} ${variant === 'filled' && styles.button}`}
       onClick={onClick}
     >

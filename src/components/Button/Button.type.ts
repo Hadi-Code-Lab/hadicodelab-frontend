@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import type { MouseEvent, ReactNode } from 'react';
 
 export type ButtonProps = {
