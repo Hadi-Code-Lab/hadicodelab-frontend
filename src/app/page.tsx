@@ -1,3 +1,9 @@
+import LandingComponent from '@/components/PagesComponents/Landing/LandingComponent';
+
 export default function Home() {
-  return <main>Hello</main>;
+  return (
+    <main className='text-center'>
+      <LandingComponent />
+    </main>
+  );
 }
