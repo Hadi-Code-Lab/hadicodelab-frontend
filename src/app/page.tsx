@@ -1,9 +1,11 @@
-import HomeComponent from '@/components/PagesComponents/Home/HomeComponent';
+import HomeHeaderComponent from '@/components/PagesComponents/Home/HomeHeaderComponent';
+import HomeTopArticles from '@/components/PagesComponents/Home/HomeTopArticles';
 
 export default function Home() {
   return (
     <main className='text-center'>
-      <HomeComponent />
+      <HomeHeaderComponent />
+      <HomeTopArticles />
     </main>
   );
 }
