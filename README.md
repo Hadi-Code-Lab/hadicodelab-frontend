@@ -9,9 +9,13 @@ It's been a while that I wanted to create a new project. So, I was wondering how
 ## My responsibilities at this project
 
 1- Front-end development
+<br/>
 2- Backend-end development
+<br/>
 3- UI/UX design
+<br/>
 4- Database design and management
+<br/>
 
 All by myself
 
