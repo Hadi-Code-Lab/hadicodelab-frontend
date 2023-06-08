@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import GuyPicture from '@/public/guypicture.png';
 
-const LandingImage = () => {
+const HomeImage = () => {
   return (
     <div
       style={{
@@ -15,4 +15,4 @@ const LandingImage = () => {
   );
 };
 
-export default LandingImage;
+export default HomeImage;
