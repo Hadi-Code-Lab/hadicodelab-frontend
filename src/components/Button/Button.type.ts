@@ -7,4 +7,5 @@ export type ButtonProps = {
   onClick?: (event: MouseEvent<HTMLButtonElement>) => void;
   variant?: 'filled' | 'outlined' | 'text' | 'elevated' | 'tonal';
   children: ReactNode | string;
+  sx?: string;
 };
