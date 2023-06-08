@@ -8,7 +8,7 @@ const LandingImage = () => {
       style={{
         background: 'linear-gradient(180deg, #FEFBFF 0%, #2151DA 100%)',
       }}
-      className='relative overflow-hidden ml-4 w-[250px] h-[500px] rounded-b-[200px]'
+      className='relative overflow-hidden ml-4 w-[364px] h-[500px] rounded-b-[200px]'
     >
       <Image className='absolute bottom-0' src={GuyPicture} alt='guy picture' />
     </div>
