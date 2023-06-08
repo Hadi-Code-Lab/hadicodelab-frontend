@@ -6,6 +6,7 @@ const Button: React.FC<ButtonProps> = ({
   children,
   icon,
   variant,
+  sx,
 }) => {
   const addVariantStyles = (activeVariant: ButtonProps['variant']) => {
     switch (activeVariant) {
@@ -26,9 +27,9 @@ const Button: React.FC<ButtonProps> = ({
 
   return (
     <button
-      className={`flex flex-row items-center justify-center rounded-full px-4 py-2 font-medium ${addVariantStyles(
+      className={`flex flex-row items-center justify-center rounded-full px-4 py-2 font-medium ${sx} ${addVariantStyles(
         variant,
-      )} ${variant === 'filled' && styles.button}`}
+      )}  ${variant === 'filled' && styles.button} `}
       onClick={onClick}
     >
       {icon && <span className='mr-2'>{icon}</span>}
