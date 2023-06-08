@@ -1,9 +1,9 @@
-import LandingComponent from '@/components/PagesComponents/Landing/LandingComponent';
+import HomeComponent from '@/components/PagesComponents/Home/HomeComponent';
 
 export default function Home() {
   return (
     <main className='text-center'>
-      <LandingComponent />
+      <HomeComponent />
     </main>
   );
 }

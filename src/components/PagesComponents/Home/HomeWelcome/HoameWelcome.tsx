@@ -1,6 +1,6 @@
 import Button from '@/components/Button/Button';
 
-const LandingWelcome = () => {
+const HomeWelcome = () => {
   return (
     <div className='w-[44%] flex flex-col item-center justify-around'>
       <div className='w-full flex flex-col'>
@@ -28,4 +28,4 @@ const LandingWelcome = () => {
   );
 };
 
-export default LandingWelcome;
+export default HomeWelcome;
