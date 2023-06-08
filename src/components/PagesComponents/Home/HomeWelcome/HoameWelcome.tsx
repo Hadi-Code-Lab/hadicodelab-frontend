@@ -2,7 +2,7 @@ import Button from '@/components/Button/Button';
 
 const HomeWelcome = () => {
   return (
-    <div className='w-[44%] flex flex-col item-center justify-around'>
+    <article className='w-[44%] flex flex-col item-center justify-around'>
       <div className='w-full flex flex-col'>
         <h1 className=' text-onPrimaryContainer text-start text-6xl leading-[64px] font-extrabold'>
           WELCOME TO HADICODELAB
@@ -24,7 +24,7 @@ const HomeWelcome = () => {
           Explore Articles
         </Button>
       </div>
-    </div>
+    </article>
   );
 };
 
