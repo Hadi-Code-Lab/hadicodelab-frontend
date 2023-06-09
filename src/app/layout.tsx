@@ -2,6 +2,7 @@ import './globals.css';
 
 import { Roboto } from 'next/font/google';
 
+import Footer from '@/components/Footer/Footer';
 import Navbar from '@/components/Navbar/Navbar';
 
 const roboto = Roboto({
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${roboto.className} bg-neutralBg`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
