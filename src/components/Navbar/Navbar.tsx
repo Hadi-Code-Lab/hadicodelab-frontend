@@ -24,19 +24,19 @@ const navbarPagesList: INavbarPagesList[] = [
     icon: <HomeIcon className='h-5 w-5' />,
   },
   {
-    id: 1,
+    id: 2,
     title: 'Portfolio',
     href: '/portfolio',
     icon: <IdentificationIcon className='h-5 w-5' />,
   },
   {
-    id: 1,
+    id: 3,
     title: 'Blog',
     href: '/blog',
     icon: <DocumentTextIcon className='h-5 w-5' />,
   },
   {
-    id: 1,
+    id: 4,
     title: 'Contact Us',
     href: '/contact',
     icon: <ChatBubbleLeftRightIcon className='h-5 w-5' />,
