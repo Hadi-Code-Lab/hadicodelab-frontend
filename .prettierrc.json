@@ -5,5 +5,21 @@
   "jsxSingleQuote": true,
   "plugins": [
     "prettier-plugin-tailwindcss"
-  ]
+  ],
+  "importOrder": [
+    "react",
+    "^react-.*$",
+    "^next",
+    "^next-.*$",
+    "^next/.*$",
+    "^.*/hooks/.*$",
+    "^.*/services/.*$",
+    "^.*/utils/.*$",
+    "^.*/pages/.*$",
+    "^.*/components/.*$",
+    "^[./]",
+    ".*"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
